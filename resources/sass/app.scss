@@ -1,0 +1,58 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+
+@import 'details';
+@import 'tables';
+
+.dark-theme {
+
+    .bg-dark {
+        background: $dark-card-color !important;
+    }
+
+    .card, .modal-content {
+        background-color: $dark-card-color;
+        color: $dark-card-text-color;
+    }
+
+}
+
+body.dark-theme {
+    background-color: $dark-bg-color;
+    color: $dark-text-color;
+}
+
+.badge-success {
+    color: $white;
+    background-color: $green;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.badge-failure {
+    color: $white;
+    background-color: $red;
+    font-size: 0.8rem;
+    padding: 7px;
+}
+
+.badge-error {
+    color: $white;
+    background-color: $gray;
+    font-size: 0.8rem;
+    padding: 7px;
+}
+
+.method{
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

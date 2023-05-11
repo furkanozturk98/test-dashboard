@@ -1,0 +1,65 @@
+$yellow: #ffab00;
+$purple: #8f5fe8;
+$green: #00d25b;
+$red: #fc424a;
+
+.widgets {
+    color: #b1b1b5;
+
+    .title {
+        font-size: .9rem;
+    }
+
+    .info {
+        float: left;
+        padding-left: .5rem;
+        padding-top: .25rem;
+
+        .value {
+            font-size: 1.5rem;
+            line-height: 1.25;
+        }
+    }
+
+    .icon {
+        color: #fff;
+        font-size: 1rem;
+        float: right;
+        padding: 20px;
+    }
+
+    .widget-date {
+        border: 1px solid $yellow;
+        .icon {
+            background-color: $yellow;
+        }
+    }
+
+    .widget-tests {
+        border: 1px solid $blue;
+        .icon {
+            background-color: $blue;
+        }
+    }
+
+    .widget-duration {
+        border: 1px solid $purple;
+        .icon {
+            background-color: $purple;
+        }
+    }
+
+    .widget-success {
+        border: 1px solid $green;
+        .icon {
+            background-color: $green;
+        }
+    }
+
+    .widget-fail {
+        border: 1px solid $red;
+        .icon {
+            background-color: $red;
+        }
+    }
+}

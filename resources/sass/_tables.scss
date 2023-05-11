@@ -1,0 +1,30 @@
+.table {
+    td {
+        border-color: #edf2f7;
+        border-width: 0;
+        border-style: solid;
+        border-bottom-width: 1px;
+        padding: 1.25rem;
+        box-sizing: inherit;
+    }
+
+    .b-table {
+        background-color: #F7FAFC;
+        color: #718096;
+    }
+
+    th {
+        border-color: #edf2f7;
+        color: #fff;
+        font-size: 0.83rem;
+    }
+
+    tr {
+        color: #a4a4a4;
+    }
+
+    &.dataTable tbody tr {
+        background-color: transparent;
+    }
+
+}
